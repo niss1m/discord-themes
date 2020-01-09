@@ -4,5 +4,3 @@
 ###### a small pack of minimalistic discord themes
 
 ###### contact me here, [static website](https://nissim.space) | *themes:* **[ncore](https://github.com/nis5im/discord/tree/master/ncore)** / [ncore](#) v2
- 
-###### [horizontalserverlist](https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist) `by gibbu`
