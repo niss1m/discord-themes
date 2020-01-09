@@ -12,7 +12,6 @@
 	 website: https://nissim.space/
 */
 
-/*@import url("https://nissim.space/ncore/theme.css");*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
 
@@ -1024,13 +1023,13 @@ browser on hover */
 }
 
 .root-SR8cQa {
-    border-radius: 8px;
+    border-radius: 18px;
     overflow: hidden;
     position: relative;
     width: 600px;
     background-color: var(--background-secondary);
     background-color: #202225;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     border-top: 3px solid #2f3136;
     border-left: 4px solid #2f3136;
     border-right: 4px solid #2f3136;
@@ -1081,4 +1080,20 @@ browser on hover */
     /* border-top: 3px solid #2f3136; */
     /* border-left: 4px solid #2f3136; */
     /* border-right: 4px solid #2f3136; */
+}
+
+.checkboxEnabled-CtinEn {
+    cursor: pointer;
+    height: 10px;
+}
+
+.sizeDefault-2YlOZr:after, .sizeMini-1ii40f {
+    border-radius: 9px;
+    height: 10px;
+}
+
+.sizeDefault-2YlOZr {
+    border-radius: 14px;
+    width: 42px;
+    height: 16px;
 }
