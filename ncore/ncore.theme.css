@@ -750,7 +750,7 @@ browser on hover */
     background: var(--background-secondary);
     transition: opacity .35s ease-in-out,box-shadow .35s ease-in-out,border, width .35s ease-in-out;
     padding-right: 20px;
-    transition-delay: 15s;
+    transition-delay: 10s;
 }
 
 /* buttons adjustment */
