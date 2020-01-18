@@ -556,15 +556,12 @@ html {
 
 .content-2M3n_H a {
     cursor: pointer;
-    color: #8c8c8c;
-    padding-top: 2px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-left: 8px;
+    color: #a5a4a4;
     background-color: rgba(114,137,218,.1);
     border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 600;
 }
 
 .theme-dark .modal-yWgWj- {
