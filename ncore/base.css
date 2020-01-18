@@ -1,3 +1,18 @@
+/*//META{"name":"ncoreog","description":"minimalistic theme for discord.","author":"nissim#0001","version":"1.0.0"}*//**/
+
+
+/**
+       .__              .__         
+  ____ |__| ______ _____|__| _____  
+ /    \|  |/  ___//  ___/  |/     \ 
+|   |  \  |\___ \ \___ \|  |  Y Y  \
+|___|  /__/____  >____  >__|__|_|  /
+     \/        \/     \/         \/ #0001
+	 
+	 website: https://nissim.space/
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
 
 
@@ -1078,4 +1093,15 @@ browser on hover */
     border-radius: 14px;
     width: 42px;
     height: 16px;
+}
+
+.inviteCode-202N0U {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    text-transform: none;
 }
