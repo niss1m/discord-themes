@@ -557,7 +557,6 @@ html {
 .content-2M3n_H a {
     cursor: pointer;
     color: #a5a4a4;
-    /* background-color: rgba(114,137,218,.1); */
     border-radius: 10px;
     margin-left: 0px;
     margin-right: 0px;
@@ -1086,4 +1085,8 @@ browser on hover */
     -ms-user-select: text;
     user-select: text;
     text-transform: none;
+}
+
+.actionButtons-3P85gM {
+    text-transform: uppercase;
 }
