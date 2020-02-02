@@ -557,7 +557,7 @@ html {
 .content-2M3n_H a {
     cursor: pointer;
     color: #a5a4a4;
-    background-color: rgba(114,137,218,.1);
+    /* background-color: rgba(114,137,218,.1); */
     border-radius: 10px;
     margin-left: 0px;
     margin-right: 0px;
