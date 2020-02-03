@@ -1,4 +1,4 @@
-/*//META{"name":"ncore","description":"a minimalistic theme for discord.","author":"nissim#0001","version":"1.0.0"}*//**/
+/*//META{"name":"ncore","description":"a minimalistic theme for discord.","author":"nissim#0001","version":"1.1.0"}*//**/
 
 
 /*
@@ -12,6 +12,5 @@
 *   	 website: https://nissim.space/
 */
 
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://nis5im.github.io/discord/ncore/base.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
