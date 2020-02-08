@@ -1094,3 +1094,20 @@ browser on hover */
 .description-3_Ncsb.formText-3fs7AJ.da-description.da-formText.marginBottom20-32qID7.da-marginBottom20.modeDefault-3a2Ph1.da-modeDefault.primary-jw0I4K {
     margin-bottom: 15px;
 }
+
+.theme-dark .container-1D34oG {
+    background-color: #18191c;
+}
+
+.inviteContent-3R63XV {
+    /* position: relative; */
+    height: 360px;
+    margin: 40px 32px 0 40px;
+    text-align: center;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #fff;
+    background-color: #7289da;
+    display: inline;
+}
