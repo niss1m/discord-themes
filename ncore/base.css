@@ -769,14 +769,12 @@ browser on hover */
 
 .wrapper-1Rf91z .scrollerWrap-2lJEkd:hover {
     opacity: 1;
-	filter: grayscale(0);
 }
 
 .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     width: 100% !important;
     opacity: 0.5;
     transition: opacity .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
-    filter: grayscale(1);
 }
 
 /* fix broken links (text-transform) */
