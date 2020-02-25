@@ -1167,11 +1167,9 @@ browser on hover */
     border-radius: 4px;
     height: 42px;
     padding: 7px 8px;
-    filter: grayscale(1);
 }
 
 .layout-2DM8Md:hover {
-    filter: grayscale(0);
 }
 
 .scroller-2FKFPG {
@@ -1193,6 +1191,20 @@ browser on hover */
     scroll-padding-top: 10px;
     margin-left: 6px;
 }
+
+.theme-dark .container-1D34oG {
+    background-color: #18191c;
+    border-left: solid #20222599 6px;
+}
+
+
+
+
+
+
+
+
+
 
 /* OLD MESSAGES by https://github.com/PseudoResonance +*/
 
