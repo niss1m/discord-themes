@@ -1196,15 +1196,16 @@ browser on hover */
 }
 
 
+/* OLD MESSages */
 
+:root {
+	--message-spacing:1.0625rem;
+	--header-height:1.375rem;
+}
 
-
-
-
-
-
-
-/* OLD MESSAGES by https://github.com/PseudoResonance +*/
+body {
+	--version: "v1.1.8";
+}
 
 /* Disable message hover */
 .messages-3amgkR .message-2qnXI6:not(.mentioned-xhSam7):hover, .messages-3amgkR .message-2qnXI6:not(.mentioned-xhSam7):active, .messages-3amgkR .message-2qnXI6.selected-2P5D_Z:not(.mentioned-xhSam7) {
@@ -1222,29 +1223,23 @@ browser on hover */
 }
 
 /* Mentions - Comment these two sections out if you want to keep the new mention highlighting */
-.messages-3amgkR .message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j {
+.messages-3amgkR > .message-2qnXI6.mentioned-xhSam7 > .contents-2mQqc9 > .markup-2BOw-j {
 	background-color:var(--background-mentioned) !important;
-	position:relative;
-	padding-left:5px;
-	left:-5px;
-}
-
-.messages-3amgkR .message-2qnXI6.mentioned-xhSam7 .markup-2BOw-j::before {
-	content:"";
-	display:inline-block;
-	position:absolute;
-	top:0;
-	left:-6px;
-	bottom:0;
-    pointer-events:none;
-    width:2px;
+	margin-left:-8px;
+	padding-left:4px;
+	height:auto;
 	border-left:4px solid #faa61a;
 	border-radius:3px 0 0 3px;
 }
 
-/* Message spacing */
-.messages-3amgkR .message-2qnXI6 .container-2LR0t2 {
-	padding-left:80px;
+.messages-3amgkR > .message-2qnXI6.mentioned-xhSam7 > .contents-2mQqc9 > .markup-2BOw-j::before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:61px;
+	height:inherit;
+    pointer-events:none;
+    width:2px;
 }
 
 /* Remove emoji suggestions */
@@ -1284,7 +1279,7 @@ browser on hover */
 .buttonContainer-DHceWr .buttons-cl5qTG {
 	top:-5px;
 	background-color:transparent !important;
-	padding-right:0px;
+	padding-right:0.875rem;
 }
 
 .messages-3amgkR .message-2qnXI6.mentioned-xhSam7 .buttonContainer-DHceWr .buttons-cl5qTG div, .buttonContainer-DHceWr, .buttonContainer-DHceWr .buttons-cl5qTG div {
@@ -1292,7 +1287,7 @@ browser on hover */
 }
 
 .messages-3amgkR .groupStart-23k01U .buttonContainer-DHceWr {
-	top:var(--header-height);
+	top:calc(var(--header-height) + 2px);
 }
 
 .buttonContainer-DHceWr .buttons-cl5qTG div .button-1ZiXG9 {
@@ -1305,8 +1300,17 @@ browser on hover */
 }
 
 /* Margin on text to accomodate buttons */
-.messages-3amgkR .message-2qnXI6 .markup-2BOw-j {
-	margin-right:22px;
+.messages-3amgkR .message-2qnXI6 .markup-2BOw-j::before {
+	content:'';
+	width:3rem;
+	height:16px;
+	display:inline-flex;
+	float:right;
+}
+
+/* Make text area wider */
+.messages-3amgkR .message-2qnXI6 {
+	padding-right:0.875rem;
 }
 
 /* Rotate settings button */
@@ -1403,3 +1407,11 @@ browser on hover */
 .messages-3amgkR .divider-3_HH5L:not(.isUnread-3Ef-o9) span::before, .messages-3amgkR .divider-3_HH5L:not(.isUnread-3Ef-o9) span::after {
 	border-bottom:thin solid var(--text-muted);
 }
+
+/* Display version info */
+.bda-slist > li[data-name="OldMessagesLoader"] > .bda-header > .bda-header-title::after {
+	content: "Theme Version: " var(--version);
+	padding-left:1em;
+}
+
+/* end of old messages */
