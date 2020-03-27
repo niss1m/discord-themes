@@ -175,11 +175,6 @@ body {
     background-color: #202225;
 }
 
-
-html {
-    text-transform: lowercase;
-}
-
 .markup-2BOw-j a {
     color: var(--text-link);
     unicode-bidi: bidi-override;
@@ -1413,3 +1408,90 @@ body {
 }
 
 /* end of old messages */
+
+/* ######### experimental FEATURES ############ */
+    .numberBadge-2s8kKX {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #4f545c;
+}
+
+
+/* shitty grey unread messages line above servers */
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    display: none;
+}
+
+
+/* less border-radius for user avatars */
+.avatar-1BDn8e {
+    /* border-radius: 10px; */
+}
+
+/* less border-radius for server logos */
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+/* better mute icon */
+.callAvatarStatus-3vMeXZ.voice-3bPYC- {
+    background-color: #00000000;
+    filter: drop-shadow(0 3px 3px black);
+}
+
+.callAvatarStatus-3vMeXZ.video-3SrWSI {
+    background-color: #00000000;
+    filter: drop-shadow(0 3px 3px black);
+}
+
+
+/* mute icon but on group chat with screenshare on */
+button.iconButtonStatic-2cPMA6.iconButton-3V4WS5.da-iconButtonStatic.da-iconButton.toggleButton-3XFSva.da-toggleButton.medium-2JR8YY {
+    filter: invert(0) sepia() saturate(0) hue-rotate();
+}
+
+rect.pointerEvents-2zdfdO.da-pointerEvents {
+    mask: none;
+    border-radius: 30px;
+    rx: 20;
+    ry: 20;
+    filter: drop-shadow(0 0px 6px black);
+}
+
+foreignObject {
+    mask: none;
+    border-radius: 20px;
+}
+
+/* leave call button */
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: inherit;
+    border: 1px solid lightgrey;
+    color: white;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    color: #000;
+    background-color: white;
+    font-weight: 900;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan:active {
+    background-color: inherit;
+    color: lightgrey;
+    border: none;
+}
