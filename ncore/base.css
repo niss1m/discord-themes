@@ -523,7 +523,7 @@ body {
     flex: 0 0 auto;
     width: 32px;
     height: 32px;
-    margin-right: 12px;
+    margin-right: 6px;
 }
 
 /* markdown etc.. */
@@ -768,7 +768,7 @@ browser on hover */
 
 .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     width: 100% !important;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: opacity .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
 }
 
@@ -1474,7 +1474,7 @@ rect.pointerEvents-2zdfdO.da-pointerEvents {
 
 foreignObject {
     mask: none;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 /* leave call button */
