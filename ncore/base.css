@@ -1474,7 +1474,6 @@ rect.pointerEvents-2zdfdO.da-pointerEvents {
 
 foreignObject {
     mask: none;
-    border-radius: 50px;
 }
 
 /* leave call button */
@@ -1494,4 +1493,11 @@ foreignObject {
     background-color: inherit;
     color: lightgrey;
     border: none;
+}
+
+.avatar-VxgULZ, .avatar-VxgULZ:before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
